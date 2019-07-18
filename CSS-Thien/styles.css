@@ -1,84 +1,80 @@
 .row1 {
-    padding: 50px 50px 30px 50px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    /* background-color: rgb(188, 252, 59); */
+  padding: 50px 50px 30px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(188, 252, 59); */
 }
 
 .col-a {
-    /* background-color: blue; */
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 150px;
-    padding-bottom: 40px;
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 150px;
+  padding-bottom: 40px;
 }
 
 .col-b {
-    /* background-color: pink; */
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: space-around;
+  /* background-color: pink; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
 }
 
 .row2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* background-color: red; */
-    padding: 0px 80px 40px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  padding: 0px 80px 40px 80px;
 }
 
 .jumbo1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: left;
-    flex-direction: column;
-    /* background-color: yellow; */
-    padding-left: 130px;
-    background-color:white;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: column;
+  /* background-color: yellow; */
+  padding-left: 130px;
+  background-color: white;
 }
 
 .col-c {
-    background-color:white;
+  background-color: white;
 }
 
 .col-d {
-    /* background-color: red; */
-    display: flex;
-    justify-content: space-around;
-    align-items: space-around;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
 }
 
 .women {
-    height: 500px;
-    padding-left: 60px;
-    padding-bottom: 30px;
-
+  height: 500px;
+  padding-left: 60px;
+  padding-bottom: 30px;
 }
 
-
-
 .imgLogo {
-    display: flex;
-    height: 80%;
-    width: 100%;
+  display: flex;
+  height: 80%;
+  width: 100%;
 }
 
 .btn1 {
-    background-color: #ff7a59;
-    width: 200px;
-    height: 80px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #ff7a59;
+  width: 200px;
+  height: 80px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .display-4 {
-    display: flex;
-    padding:
+  display: flex;
+  padding: ;
 }
-
