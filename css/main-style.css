@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: AvenirNext, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  height: 6rem;
+  background-color: #f5f8fa;
+}
