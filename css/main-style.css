@@ -14,16 +14,84 @@ html {
 }
 body {
   font-size: 1rem;
-  line-height: 1.5;
+  /* line-height: 1.5; */
   width: 100%;
 }
 
-nav {
+/* .navLg-Container {
+  margin: 0;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   height: 6rem;
   background-color: #f5f8fa;
+  width: 100%;
+  position: fixed;
+  top: 0;
 }
 .cds-page-width-normal {
   width: 70rem;
+  height: 100%;
   margin: 0 auto;
+  /* padding-left: 2.5rem;
+  padding-right: 2.5rem; */
+/* background-color: red; */
+/* }*/
+nav {
+  height: 6rem;
+  background-color: #f5f8fa
+}
+footer {
+  width: 100%;
+  margin-top: 6rem;
+  height: 51rem;
+  background-color: #33475b;
+}
+.btn-outline-Cds {
+  background-color: #ff7a59;
+  color: white;
+  opacity: 0.9;
+}
+.btn-outline-orange {
+  color: #ff7a59;
+  opacity: 0.9;
+  border:thin solid #ff7a59;
+}
+
+#loginButt {
+border: solid #ff7a59
+  opacity: 0.9 ;
+}
+#loginButt :hover {
+  background-color: azure;
+  opacity: 0.5 ;
+  color: #ff7a59;
+}
+.my-1 :hover {
+  color:  #ff7a59;
+  opacity: 0.5 ;
+}
+.my-2 :hover{
+  opacity: 0.5 ;
+}
+/* .btn-outline-success {
+  color: #ff7a59
+} */
+/* nav .nav-color {
+  background-color: #f5f8fa;
+} */
+.dropdown img {
+  width: 0.75em;
+  height: 0.75em;
+  opacity: 0.5;
+}
+li .largeSeperate {
+  font-size: larger;
+  font-weight: bolder
+}
+.goRight {
+justify-content: flex-end;
+color: white;
+}
+.goRight li {
+  margin-left: 1rem;
+  
 }

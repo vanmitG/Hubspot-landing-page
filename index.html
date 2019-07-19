@@ -15,9 +15,101 @@
     <link rel="stylesheet" href="css/main-style.css" />
   </head>
   <body>
-    <nav></nav>
-    <div></div>
-    <footer></footer>
+    <nav class="navbar navbar-expand-sm fixed-top navbar-light">
+      <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="img/language-switcher-icon.svg"
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-top"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >English <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link "
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <img
+                  src="img/drop-down-arrow.svg"
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-center"
+                  alt=""
+                />
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item largeSeperate">
+              <a class="nav-link " href="#">|</a>
+            </li>
+            <li class="nav-item largeSeperate">
+              <a class="nav-link " href="#">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav goRight">
+            <li class="nav-item">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="img/search icon.webp"
+                  width="30"
+                  height="30"
+                  class="d-inline-block align-top"
+                  alt=""
+                />
+              </a>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-orange my-2 my-sm-0" type="submit">
+                Login
+              </button>
+            </li>
+            <li class="nav-item">
+              <button class="btn btn-outline-Cds my-2 my-sm-0" type="submit">
+                Get HubSpot free
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <footer>
+      footer
+    </footer>
     <!-- bootstrap js -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
