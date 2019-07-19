@@ -1,8 +1,4 @@
-body{
-    
-    
-    
-}
+/* Phuong starting */
 .navbar-brand{
     display: flex;
     padding-left: 150px;
@@ -22,7 +18,7 @@ body{
 .card1{
     padding-left: 30px;
     padding-bottom: 10px;
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -45,6 +41,7 @@ body{
 }
 .btn1:hover{
     opacity: 0.9;
+    
 }
 .btn{
     background-color: #ff8f59;
@@ -64,4 +61,25 @@ body{
 .collapse{
     display: flex;
     justify-content: flex-end;
+    padding-right: 150px;
+}
+
+/* Phuong Ending */
+
+
+.dropdown-custom {
+    height: 300px;
+    min-width: 700px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+}
+
+
+
+
+.dropdown-menu.show {
+    position: absolute;
+    right: 0;   
 }
