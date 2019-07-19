@@ -86,6 +86,20 @@
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 
+
+
+.container1 {
+  /* background-color: red; */
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+  
+}
+
 .display2 {
   color: white;
   font-weight: bold;
@@ -93,6 +107,9 @@
   display: flex;
   align-items: center;
   text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+  padding: 10px;
 }
 
 .display3 {
@@ -102,17 +119,8 @@
   display: flex;
   align-items: center;
   text-align: center;
-  font-size: 12px;
-}
-
-.container1 {
-  background-color: red;
-  height: 20vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  font-size: 16px;
+  padding-bottom: 60px;
 }
 
 .container2 {
@@ -126,30 +134,77 @@
 .col-f {
   /* background-color: purple; */
   border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
 }
+
 
 .col-g {
   border-bottom: 1px solid white;
   border-left: 1px solid white;
   border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
 }
 
 .col-h {
   border-bottom: 1px solid white;
   border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
 }
 
 .col-i {
   border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-j {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
 }
 
 .col-k {
   border-left: 1px solid white;
   border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
 }
 
 .col-l {
   border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-m {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
 }
 
 .col-md-3 {
@@ -160,6 +215,13 @@
 
 .textbox {
   color: white;
+}
+.textbox1 {
+  font-weight: bold;
+}
+
+.imgBrand {
+  padding-bottom: 10px;
 }
 
 /* Thien CSS End */
