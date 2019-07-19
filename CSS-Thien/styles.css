@@ -21,6 +21,7 @@ body {
 /* Css Khuong Start */
 nav {
   height: 6rem;
+  /* background-color: yellow */
   background-color: #f5f8fa
 }
 footer {
@@ -35,6 +36,7 @@ footer {
   opacity: 0.9;
 }
 .btn-outline-orange {
+  background-color: transparent;
   color: #ff7a59;
   opacity: 0.9;
   border:thin solid #ff7a59;
@@ -49,13 +51,23 @@ li .largeSeperate {
   font-weight: bolder
 }
 .goRight {
-justify-content: flex-end;
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
 color: white;
 }
-.goRight li {
+/* .goRight li {
   margin-left: 1rem;
   
+} */
+.goSpace {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .border-bottom {
   color: #cbd6e2
   opacity: 0.7;
