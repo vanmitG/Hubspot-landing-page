@@ -8,6 +8,7 @@ body {
     justify-content: center;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+/* Start-Section3-Mors */
 .ContainerSection3 {
     display: flex;
     width: 70%;
@@ -46,7 +47,7 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    background-color:#f5f8fa);
+    background-color:#f5f8fa;
 }   
 
 .btn {
@@ -124,3 +125,4 @@ body {
 .hr-sect1 {
     background: #f5f8fa;
 }
+/* End-Section3-Mors */
