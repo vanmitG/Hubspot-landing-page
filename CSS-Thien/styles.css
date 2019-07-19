@@ -486,7 +486,7 @@ justify-content: space-between;
 
 .ContainerSection3 {
   display: flex;
-  width: 70%;
+  width: 100%;
   margin-top: 20px;
   align-items: center;
   align-content: center;
