@@ -1,6 +1,4 @@
-
 /* Thien CSS Start */
-
 
 .row1 {
   padding: 50px 50px 30px 50px;
@@ -86,8 +84,6 @@
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
 
-
-
 .container1 {
   /* background-color: red; */
   height: 25vh;
@@ -97,7 +93,6 @@
   align-items: center;
   flex-direction: column;
   padding: 60px;
-  
 }
 
 .display2 {
@@ -140,7 +135,6 @@
   align-items: space-around;
   padding-top: 20px;
 }
-
 
 .col-g {
   border-bottom: 1px solid white;
