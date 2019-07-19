@@ -1,0 +1,607 @@
+/* font */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap");
+/* Declare font:
+font-family: "Open Sans", sans-serif; 
+font-family: "Montserrat", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+/* Css Khuong Start */
+nav {
+  height: 6rem;
+  background-color: #f5f8fa
+}
+footer {
+  width: 100%;
+  margin-top: 6rem;
+  min-height: 51rem;
+  background-color: #33475b;
+}
+.btn-outline-Cds {
+  background-color: #ff7a59;
+  color: white;
+  opacity: 0.9;
+}
+.btn-outline-orange {
+  color: #ff7a59;
+  opacity: 0.9;
+  border:thin solid #ff7a59;
+}
+.dropdown img {
+  width: 0.75em;
+  height: 0.75em;
+  opacity: 0.5;
+}
+li .largeSeperate {
+  font-size: larger;
+  font-weight: bolder
+}
+.goRight {
+justify-content: flex-end;
+color: white;
+}
+.goRight li {
+  margin-left: 1rem;
+  
+}
+.border-bottom {
+  color: #cbd6e2
+  opacity: 0.7;
+}
+.links {
+  margin-top: 6rem;
+  /* flex: 1; */
+  /* background-color: #fae62d; */
+}
+.links > ul {
+    /* width: 30em; */
+    color:#ffffff;
+    /* font-size: larger; */
+    font-weight: bolder;
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: space-between; */
+    align-items: center;
+    /* margin-left: auto; */
+/* flex-wrap: wrap; */
+}
+.links > ul > li {
+  font-family: "Montserrat", sans-serif;
+  font-size: smaller;
+  margin-top: 1rem;
+}
+.links ul > li > a {
+  color: #cbd6e2;
+  text-decoration: none;
+}
+.links ul > li > a:hover {
+  color: #00bda5;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  font-size: 1.5rem;
+  width: 100%;
+  color: #cbd6e2;
+justify-content: space-between;
+}
+/* .icons i {
+  margin-left: 1.3rem;
+} */
+.icons i:hover {
+  color: #00bda5;
+}
+.languages {
+  display: flex;
+  width: 60%;
+  height: 15vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.languages > ul {
+  width: 100%;
+  display: flex;
+  /* font-size: larger; */
+  font-weight: bolder;
+  list-style-type: none;
+  justify-content:space-between;
+  align-items: center;
+  /* margin-left: auto; */
+}
+.languages > ul > li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.languages ul > li > a {
+  color: #cbd6e2;
+  text-decoration: none;
+}
+.languages ul > li > a:hover {
+  color: #00bda5;
+  text-decoration: none;
+}
+.logoFooter p {
+  color: #cbd6e2;
+  font-size: smaller;
+}
+.logoFooter p:hover {
+  color: #00bda5;
+}
+
+.linkFooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.linkFooter a {
+  color: #cbd6e2;
+  font-size: larger;
+  text-decoration: none;
+  margin-left: 3rem;
+}
+.linkFooter a:hover {
+  color: #00bda5;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.btn-info {
+  background-color: 
+  transparent;
+  /* border: #cbd6e2 */
+  font-size: x-small;
+}
+
+/* Css Khuong End */
+
+/* Phuong CSS Start */
+
+.navbar-brand1{
+    display: flex;
+    padding-left: 150px;
+    margin-top: 6rem;
+}
+.section2{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-color: #ff8f59;
+}
+
+.section2{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.card111{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+
+}
+.btn1{
+    width: 300px;
+    height: 70px;
+    text-decoration-line: none;
+    border: 1px solid white;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: black
+}
+.btn1:hover{
+    opacity: 0.9;
+}
+.btn{
+    background-color: #ff8f59;
+    display: flex;
+    width: 150px;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+}
+.lin1{
+    font-size: 32px;
+}
+.collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+/* Phuong CSS End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Thien CSS Start */
+
+.row1 {
+  padding: 50px 50px 30px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: rgb(188, 252, 59); */
+}
+
+.col-a {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 150px;
+  padding-bottom: 40px;
+}
+
+.col-b {
+  /* background-color: pink; */
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+  padding: 0px 80px 40px 80px;
+}
+
+.jumbo1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: column;
+  /* background-color: yellow; */
+  padding-left: 130px;
+  background-color: white;
+}
+
+.col-c {
+  background-color: white;
+}
+
+.col-d {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.women {
+  height: 500px;
+  padding-left: 60px;
+  padding-bottom: 30px;
+}
+
+.imgLogo {
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+
+.btn1 {
+  background-color: #ff7a59;
+  width: 200px;
+  height: 80px;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display1 {
+  display: flex;
+}
+
+.jumbo2 {
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.container1 {
+  /* background-color: red; */
+  height: 25vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.display2 {
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 100px;
+  padding: 10px;
+}
+
+.display3 {
+  color: white;
+  font-weight: lighter;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  padding-bottom: 60px;
+}
+
+.container2 {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col-f {
+  /* background-color: purple; */
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-g {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-h {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-i {
+  border-bottom: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-j {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-k {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-l {
+  border-right: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-m {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  padding-top: 20px;
+}
+
+.col-md-3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.textbox {
+  color: white;
+}
+.textbox1 {
+  font-weight: bold;
+}
+
+.imgBrand {
+  padding-bottom: 10px;
+}
+
+/* Thien CSS End */
+
+
+/* Mr. Hang CSS Start */
+
+
+.ContainerSection3 {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: #f5f8fa;
+ 
+}
+.S3-Container1 {
+  display: flex;
+  width: 60%;
+  height: 400px;
+  margin-top: 20px;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#f5f8fa;
+}
+.S3-Container2 {
+  display: flex;
+  width: 80%;
+  height: 300px;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.S3-Container3{
+  display: flex;
+  width: 80%;
+  height: 600px;  
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#f5f8fa);
+}   
+
+.btn {
+  background-color: #ff7a59;
+  display: flex;
+  width: 45%;
+  align-items: center;
+  align-content: center;
+  margin-left: 50px;
+  color: #f5f8fa;
+}
+.btn:hover {
+  opacity: 0.75;
+  color: #f5f8fa;
+}
+.pplf {
+  text-align: left;
+}
+.pplf1 {
+  text-align: center;
+}
+.card {
+  background-color: #ffffff;
+}
+.card1 {
+  margin-top: 20px;
+  background-color: #ffffff;
+  text-align: start;
+}
+
+.card:hover {
+  box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
+  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
+  border-radius: 4px;
+  transform: scale(1.014);
+}
+.card1:hover {
+  box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
+  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
+  border-radius: 4px;
+  transform: scale(1.014);
+}
+.card-title {
+  text-align: center;
+}
+.card-title1 {
+  text-align: left;
+}
+.card-body {
+  text-align: start;
+}
+.details {
+  list-style: none;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+}
+.hr-sect {
+display: flex;
+flex-basis: 100%;
+align-items: center;
+  color: rgb(0, 0, 0);
+  margin: 8px 0px;
+  
+}
+.hr-sect::after {
+content: "";
+flex-grow: 1;
+  background: #d1d4d6c0;
+height: 1px;
+font-size: 0px;
+line-height: 0px;
+margin: 0px 8px;
+}
+.hr-sect1 {
+  background: #f5f8fa;
+}
+
+
+/* Mr. Hang CSS End */
+
+
