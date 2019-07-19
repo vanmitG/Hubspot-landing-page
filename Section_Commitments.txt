@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Section Commitments:
 
 Section 1: NavBar1+Footer+Learn&Grow
@@ -54,4 +55,62 @@ Customer
 
 Call to action
 	- Button: hover change color/opacity
+=======
+Section Commitments:
+
+Section 1: NavBar1+Footer+Learn&Grow
+
+NavBar1
+	- Dropdown link
+	- Button: Hover change color/opacity
+	- Sticky
+
+Footer
+	- Text/button: hover change color/shadow
+	- Dropdown
+
+Learn&Grow
+	- Text
+	- Image
+
+---------------------------------
+
+Section 2: NavBar2 + Jumbotron
+
+NavBar2
+	- Dropdown link
+
+Jumbotron
+	- Text image
+	- Button: hover change of color/opacity
+
+---------------------------------
+
+Section 3: App Features
+
+Jumbotron:
+	- Text
+	- Image
+
+1 Big Card
+	- Button: hover change color/opacity
+	- Card: hover change size
+
+3 Small Cards 
+	- Button: hover change color/opacity
+	- Card: hover change size
+	- 3 columns
+
+---------------------------------
+
+Section 4: Customer & Call to action
+
+Customer
+	- Text
+	- Image
+	- 2 columns
+
+Call to action
+	- Button: hover change color/opacity
+>>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
 2 columns
