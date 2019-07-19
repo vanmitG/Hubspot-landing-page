@@ -32,11 +32,11 @@ body {
 .S3-Container2 {
     display: flex;
     width: 80%;
-    height: 200px;
+    height: 300px;
     align-items: center;
+    align-content: center;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(203, 211, 88);
 }
 .S3-Container3{
     display: flex;
@@ -56,23 +56,27 @@ body {
     align-items: center;
     align-content: center;
     margin-left: 50px;
-
+    color: #f5f8fa;
 }
 .btn:hover {
     opacity: 0.75;
-    
+    color: #f5f8fa;
 }
 .pplf {
     text-align: left;
 }
 .pplf1 {
-    text-align: right;
+    text-align: center;
+}
+.card {
+    background-color: #ffffff;
 }
 .card1 {
     margin-top: 20px;
-    background-color: white;
+    background-color: #ffffff;
     text-align: start;
 }
+
 .card:hover {
     box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
     box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
@@ -96,4 +100,27 @@ body {
 }
 .details {
     list-style: none;
+    align-items: center;
+    align-content: center;
+    justify-self: center;
+}
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+    color: rgb(0, 0, 0);
+    margin: 8px 0px;
+    
+}
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+    background: #d1d4d6c0;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
+}
+.hr-sect1 {
+    background: #f5f8fa;
 }
