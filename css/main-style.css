@@ -24,7 +24,7 @@ nav {
 footer {
   width: 100%;
   margin-top: 6rem;
-  height: 51rem;
+  min-height: 51rem;
   background-color: #33475b;
 }
 .btn-outline-Cds {
@@ -60,7 +60,7 @@ color: white;
 }
 .links {
   margin-top: 6rem;
-  flex: 1;
+  /* flex: 1; */
   /* background-color: #fae62d; */
 }
 .links > ul {
@@ -160,3 +160,11 @@ justify-content: space-between;
   font-size: larger;
   text-decoration: none;
 }
+
+.btn-info {
+  background-color: 
+  transparent;
+  /* border: #cbd6e2 */
+  font-size: x-small;
+}
+
