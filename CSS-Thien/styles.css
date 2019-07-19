@@ -1,3 +1,7 @@
+
+/* Thien CSS Start */
+
+
 .row1 {
   padding: 50px 50px 30px 50px;
   display: flex;
@@ -74,6 +78,88 @@
   align-items: center;
 }
 
-.display-4 {
+.display1 {
   display: flex;
 }
+
+.jumbo2 {
+  background-image: linear-gradient(45deg, #00a4bd, #00bda5);
+}
+
+.display2 {
+  color: white;
+  font-weight: bold;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.display3 {
+  color: white;
+  font-weight: lighter;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.container1 {
+  background-color: red;
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container2 {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.col-f {
+  /* background-color: purple; */
+  border-bottom: 1px solid white;
+}
+
+.col-g {
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.col-h {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.col-i {
+  border-bottom: 1px solid white;
+}
+
+.col-k {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.col-l {
+  border-right: 1px solid white;
+}
+
+.col-md-3 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.textbox {
+  color: white;
+}
+
+/* Thien CSS End */
