@@ -485,6 +485,7 @@ justify-content: space-between;
 
 
 .ContainerSection3 {
+  display: flex;
   width: 100%;
   margin-top: 20px;
   padding: 20px;
@@ -497,7 +498,7 @@ justify-content: space-between;
 }
 .S3-Container1 {
   display: flex;
-  width: 100%;
+  border: none;
   margin-top: 20px;
   align-items: center;
   align-content: center;
@@ -507,12 +508,51 @@ justify-content: space-between;
 }
 .S3-Container2 {
   display: flex;
-  width: 100%;
+  width: 60%;
+  padding: 20px;
   align-items: center;
   align-content: center;
   flex-direction: column;
   justify-content: center;
+  background-color: #ffffff;
 }
+
+.S3C2col1 {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+
+}
+
+.ribbonintop {
+  background-color: #00bda5;
+  border-radius: 1.25rem 0.375rem 0.375rem 1.25rem;
+  box-shadow: rgba(255,255,255,0.2) 0 1px 2px 0;
+  color: #fff;
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1.25rem;
+  min-height: 1.25rem;
+  padding: 0 0.375rem 0 0.625rem;
+  position: absolute;
+  right: -4px;
+  text-align: center;
+  text-size-adjust: 100%;
+  text-transform: uppercase;
+  top: 8px;
+  vertical-align: middle;
+  font-family: inherit;
+}
+
+.S3-Container2:hover {
+  box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
+  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
+  border-radius: 4px;
+  transform: scale(1.014);
+}
+
 .S3-Container3{
   display: flex;
   width: 100%;  
@@ -522,6 +562,7 @@ justify-content: space-between;
   justify-content: center;
   background-color:#f5f8fa;
 }   
+
 
 .btnS30 {
   background-color: #ff7a59;
@@ -543,21 +584,13 @@ justify-content: space-between;
 .pplf1 {
   text-align: center;
 }
-.cardS32 {
-  background-color: #ffffff;
-}
+
 .cardS33 {
   margin-top: 20px;
   background-color: #ffffff;
   text-align: start;
 }
 
-.cardS32:hover {
-  box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
-  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
-  border-radius: 4px;
-  transform: scale(1.014);
-}
 .cardS33:hover {
   box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
   box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
