@@ -112,7 +112,6 @@ justify-content: space-between;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
 }
 
 .languages > ul {
@@ -152,47 +151,6 @@ justify-content: space-between;
   justify-content: flex-end;
 }
 
-=======
-}
-
-.languages > ul {
-  width: 100%;
-  display: flex;
-  /* font-size: larger; */
-  font-weight: bolder;
-  list-style-type: none;
-  justify-content:space-between;
-  align-items: center;
-  /* margin-left: auto; */
-}
-.languages > ul > li {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
-  margin-top: 1rem;
-}
-.languages ul > li > a {
-  color: #cbd6e2;
-  text-decoration: none;
-}
-.languages ul > li > a:hover {
-  color: #00bda5;
-  text-decoration: none;
-}
-.logoFooter p {
-  color: #cbd6e2;
-  font-size: smaller;
-}
-.logoFooter p:hover {
-  color: #00bda5;
-}
-
-.linkFooter {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-
->>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
 .linkFooter a {
   color: #cbd6e2;
   font-size: larger;
@@ -214,15 +172,3 @@ justify-content: space-between;
 
 /* Css Khuong End */
 
-<<<<<<< HEAD
-#test {
-  height: 100px;
-  width: 100px;
-  background-color: teal;
-}
-
-#test:hover {
-  background-color: red;
-}
-=======
->>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
