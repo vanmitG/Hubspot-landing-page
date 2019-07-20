@@ -20,9 +20,10 @@ body {
 
 /* Css Khuong Start */
 nav {
-  min-height: 6rem;
+  min-height: 5rem;
   /* background-color: yellow */
   background-color: #f5f8fa;
+
 }
 footer {
   width: 100%;
