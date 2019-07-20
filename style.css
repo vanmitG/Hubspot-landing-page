@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 /* Phuong starting */
+=======
+body{
+    
+    
+    
+}
+>>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
 .navbar-brand{
     display: flex;
     padding-left: 150px;
@@ -18,7 +26,11 @@
 .card1{
     padding-left: 30px;
     padding-bottom: 10px;
+<<<<<<< HEAD
     width: 100%;
+=======
+    width: 40%;
+>>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
     display: flex;
     flex-direction: column;
 }
@@ -41,7 +53,10 @@
 }
 .btn1:hover{
     opacity: 0.9;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
 }
 .btn{
     background-color: #ff8f59;
@@ -61,6 +76,7 @@
 .collapse{
     display: flex;
     justify-content: flex-end;
+<<<<<<< HEAD
     padding-right: 150px;
 }
 
@@ -82,4 +98,6 @@
 .dropdown-menu.show {
     position: absolute;
     right: 0;   
+=======
+>>>>>>> 9676883da3c36bdc8cc67484bfcdbe49311d2d75
 }
