@@ -509,7 +509,9 @@ li .largeSeperate {
 
 /* Thien CSS End */
 
+
 /* Mr. Hang CSS Start */
+
 
 .ContainerSection3 {
   display: flex;
@@ -518,8 +520,11 @@ li .largeSeperate {
   padding: 20px;
   align-items: center;
   align-content: center;
+  justify-content: center;
   flex-direction: column;
   background-color: #f5f8fa;
+  text-align: center;
+ 
 }
 .S3-Container1 {
   display: flex;
@@ -529,7 +534,7 @@ li .largeSeperate {
   align-content: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #f5f8fa;
+  background-color:#f5f8fa;
 }
 .S3-Container2 {
   display: flex;
@@ -540,6 +545,7 @@ li .largeSeperate {
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
+  border: none;
 }
 
 .S3C2col1 {
@@ -570,10 +576,6 @@ li .largeSeperate {
   vertical-align: middle;
   font-family: inherit;
 }
-.S3-Container3 {
-  display: flex;
-  width: 100%;
-  height: 600px;
 
 .S3-Container2:hover {
   box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
@@ -587,11 +589,11 @@ li .largeSeperate {
   width: 100%;  
   margin-top: 50px;
   align-items: center;
+  align-content: center;
   flex-direction: column;
   justify-content: center;
-  background-color: #f5f8fa;
-  height: 600px;
-}
+  background-color:#f5f8fa;
+}   
 
 
 .btnS30 {
@@ -604,6 +606,7 @@ li .largeSeperate {
   color: #f5f8fa;
 }
 .btnS30:hover {
+  
   color: #ffffff;
   background-color: #ff8f59;
 }
@@ -619,9 +622,10 @@ li .largeSeperate {
   background-color: #ffffff;
   text-align: start;
 }
+
 .cardS33:hover {
   box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
-  box-shadow: rgba(51, 71, 91, 0.12) 0px 10px 50px -5px;
+  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
   border-radius: 4px;
   transform: scale(1.014);
 }
@@ -641,23 +645,27 @@ li .largeSeperate {
   justify-self: center;
 }
 .hr-sect {
-  display: flex;
-  flex-basis: 100%;
-  align-items: center;
+display: flex;
+flex-basis: 100%;
+align-items: center;
   color: rgb(0, 0, 0);
   margin: 8px 0px;
+  
 }
 .hr-sect::after {
-  content: "";
-  flex-grow: 1;
+content: "";
+flex-grow: 1;
   background: #d1d4d6c0;
-  height: 1px;
-  font-size: 0px;
-  line-height: 0px;
-  margin: 0px 8px;
+height: 1px;
+font-size: 0px;
+line-height: 0px;
+margin: 0px 8px;
 }
 .hr-sect1 {
   background: #f5f8fa;
 }
 
+
 /* Mr. Hang CSS End */
+
+
