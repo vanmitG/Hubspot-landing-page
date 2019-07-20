@@ -20,26 +20,47 @@ body {
 
 /* Css Khuong Start */
 nav {
-  height: 6rem;
+  min-height: 6rem;
   /* background-color: yellow */
-  background-color: #f5f8fa
+  background-color: #f5f8fa;
 }
 footer {
   width: 100%;
   margin-top: 6rem;
-  min-height: 51rem;
+  min-height: 38rem;
   background-color: #33475b;
 }
-.btn-outline-Cds {
-  background-color: #ff7a59;
+#loginButton {
+  background-color: transparent;
+  display: flex;
+  width: 5rem;
+  height: 2.5rem;
+  border: thin solid #ff8f59;
+  border-radius: 0.25em;
+  justify-content: center;
+  align-items: center;
+  color: #ff8f59;
+  opacity: 0.9;
+}
+#loginButton:hover {
+  text-decoration: none;
+  opacity: 0.4;
+}
+#supportButton {
+  background-color: #ff8f59;
+  display: flex;
+  width: 12rem;
+  height: 2.5rem;
+  border: thin solid #ff8f59;
+  border-radius: 0.252rem;
+  justify-content: center;
+  align-items: center;
   color: white;
   opacity: 0.9;
 }
-.btn-outline-orange {
-  background-color: transparent;
-  color: #ff7a59;
-  opacity: 0.9;
-  border:thin solid #ff7a59;
+#supportButton:hover {
+  /* text-decoration: none; */
+  opacity: 0.7;
 }
 .dropdown img {
   width: 0.75em;
@@ -48,14 +69,14 @@ footer {
 }
 li .largeSeperate {
   font-size: larger;
-  font-weight: bolder
+  font-weight: bolder;
 }
 .goRight {
   width: 100%;
   display: flex;
-justify-content: center;
-align-items: center;
-color: white;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 /* .goRight li {
   margin-left: 1rem;
@@ -64,6 +85,7 @@ color: white;
 .goSpace {
   width: 100%;
   display: flex;
+  flex-flow: wrap;
   justify-content: space-between;
   align-items: center;
 }
@@ -78,17 +100,18 @@ color: white;
   /* background-color: #fae62d; */
 }
 .links > ul {
-    /* width: 30em; */
-    color:#ffffff;
-    /* font-size: larger; */
-    font-weight: bolder;
-    list-style-type: none;
-    /* display: flex;
+  margin-top: 1rem;
+  /* width: 30em; */
+  color: #ffffff;
+  /* font-size: larger; */
+  font-weight: bolder;
+  list-style-type: none;
+  /* display: flex;
     flex-direction: column; */
-    /* justify-content: space-between; */
-    align-items: center;
-    /* margin-left: auto; */
-/* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin-left: auto; */
+  /* flex-wrap: wrap; */
 }
 .links > ul > li {
   font-family: "Montserrat", sans-serif;
@@ -106,10 +129,11 @@ color: white;
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
   font-size: 1.5rem;
   width: 100%;
   color: #cbd6e2;
-justify-content: space-between;
+  justify-content: space-between;
 }
 /* .icons i {
   margin-left: 1.3rem;
@@ -129,10 +153,11 @@ justify-content: space-between;
 .languages > ul {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   /* font-size: larger; */
   font-weight: bolder;
   list-style-type: none;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   /* margin-left: auto; */
 }
@@ -175,100 +200,91 @@ justify-content: space-between;
   text-decoration: none;
 }
 
-.btn-info {
-  background-color: 
-  transparent;
-  /* border: #cbd6e2 */
-  font-size: x-small;
+#helpButton {
+  background-color: #f5f8fa;
+  display: flex;
+  width: 12rem;
+  height: 2rem;
+  /* border: thin solid #ff8f59; */
+  border-radius: 0.252rem;
+  justify-content: center;
+  align-items: center;
+  color: #33475b;
+  opacity: 0.9;
+  font-size: smaller;
 }
-
+#helpButton:hover {
+  /* text-decoration: none; */
+  opacity: 0.7;
+}
 /* Css Khuong End */
 
 /* Phuong CSS Start */
 
-.navbar-brand1{
-    display: flex;
-    padding-left: 150px;
-    margin-top: 6rem;
+.navbar-brand1 {
+  display: flex;
+  padding-left: 150px;
+  margin-top: 6rem;
 }
-.section2{
-    display: flex;
-    width: 100%;
-    height: 600px;
-    background-color: #ff8f59;
-}
-
-.section2{
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-.card111{
-    padding-left: 30px;
-    padding-bottom: 10px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-.button{
-    display: flex;
-    justify-content: space-around;
-
-}
-.btn1{
-    width: 300px;
-    height: 70px;
-    text-decoration-line: none;
-    border: 1px solid white;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    color: black
-}
-.btn1:hover{
-    opacity: 0.9;
-}
-.btn{
-    background-color: #ff8f59;
-    display: flex;
-    width: 150px;
-    border: 1px solid white;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.btn:hover{
-    background-color: white;
-}
-.lin1{
-    font-size: 32px;
-}
-.collapse{
-    display: flex;
-    justify-content: flex-end;
+.section2 {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-color: #ff8f59;
 }
 
-
-
-
-
+.section2 {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.card111 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.btn1 {
+  width: 300px;
+  height: 70px;
+  text-decoration-line: none;
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: black;
+}
+.btn1:hover {
+  opacity: 0.9;
+}
+.btn {
+  background-color: #ff8f59;
+  display: flex;
+  width: 150px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+}
+.lin1 {
+  font-size: 32px;
+}
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* Phuong CSS End */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Thien CSS Start */
 
@@ -492,9 +508,7 @@ justify-content: space-between;
 
 /* Thien CSS End */
 
-
 /* Mr. Hang CSS Start */
-
 
 .ContainerSection3 {
   display: flex;
@@ -505,7 +519,6 @@ justify-content: space-between;
   align-content: center;
   flex-direction: column;
   background-color: #f5f8fa;
- 
 }
 .S3-Container1 {
   display: flex;
@@ -516,7 +529,7 @@ justify-content: space-between;
   align-content: center;
   flex-direction: column;
   justify-content: center;
-  background-color:#f5f8fa;
+  background-color: #f5f8fa;
 }
 .S3-Container2 {
   display: flex;
@@ -527,18 +540,18 @@ justify-content: space-between;
   flex-direction: column;
   justify-content: center;
 }
-.S3-Container3{
+.S3-Container3 {
   display: flex;
   width: 100%;
-  height: 600px;  
+  height: 600px;
   margin-top: 50px;
   padding-left: 300px;
   padding-right: 300px;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background-color:#f5f8fa;
-}   
+  background-color: #f5f8fa;
+}
 
 .btnS30 {
   background-color: #ff7a59;
@@ -550,7 +563,6 @@ justify-content: space-between;
   color: #f5f8fa;
 }
 .btnS30:hover {
-  
   color: #ffffff;
   background-color: #ff8f59;
 }
@@ -571,13 +583,13 @@ justify-content: space-between;
 
 .cardS32:hover {
   box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
-  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
+  box-shadow: rgba(51, 71, 91, 0.12) 0px 10px 50px -5px;
   border-radius: 4px;
   transform: scale(1.014);
 }
 .cardS33:hover {
   box-shadow: rgb(234, 204, 246) 0px 0px 11px 0px;
-  box-shadow: rgba(51, 71, 91,0.12) 0px 10px 50px -5px;
+  box-shadow: rgba(51, 71, 91, 0.12) 0px 10px 50px -5px;
   border-radius: 4px;
   transform: scale(1.014);
 }
@@ -597,27 +609,23 @@ justify-content: space-between;
   justify-self: center;
 }
 .hr-sect {
-display: flex;
-flex-basis: 100%;
-align-items: center;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
   color: rgb(0, 0, 0);
   margin: 8px 0px;
-  
 }
 .hr-sect::after {
-content: "";
-flex-grow: 1;
+  content: "";
+  flex-grow: 1;
   background: #d1d4d6c0;
-height: 1px;
-font-size: 0px;
-line-height: 0px;
-margin: 0px 8px;
+  height: 1px;
+  font-size: 0px;
+  line-height: 0px;
+  margin: 0px 8px;
 }
 .hr-sect1 {
   background: #f5f8fa;
 }
 
-
 /* Mr. Hang CSS End */
-
-
