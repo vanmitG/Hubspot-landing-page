@@ -20,24 +20,47 @@ body {
 
 /* Css Khuong Start */
 nav {
-  height: 6rem;
-  background-color: #f5f8fa
+  min-height: 6rem;
+  /* background-color: yellow */
+  background-color: #f5f8fa;
 }
 footer {
   width: 100%;
   margin-top: 6rem;
-  min-height: 51rem;
+  min-height: 38rem;
   background-color: #33475b;
 }
-.btn-outline-Cds {
-  background-color: #ff7a59;
+#loginButton {
+  background-color: transparent;
+  display: flex;
+  width: 5rem;
+  height: 2.5rem;
+  border: thin solid #ff8f59;
+  border-radius: 0.25em;
+  justify-content: center;
+  align-items: center;
+  color: #ff8f59;
+  opacity: 0.9;
+}
+#loginButton:hover {
+  text-decoration: none;
+  opacity: 0.4;
+}
+#supportButton {
+  background-color: #ff8f59;
+  display: flex;
+  width: 12rem;
+  height: 2.5rem;
+  border: thin solid #ff8f59;
+  border-radius: 0.252rem;
+  justify-content: center;
+  align-items: center;
   color: white;
   opacity: 0.9;
 }
-.btn-outline-orange {
-  color: #ff7a59;
-  opacity: 0.9;
-  border:thin solid #ff7a59;
+#supportButton:hover {
+  /* text-decoration: none; */
+  opacity: 0.7;
 }
 .dropdown img {
   width: 0.75em;
@@ -46,16 +69,27 @@ footer {
 }
 li .largeSeperate {
   font-size: larger;
-  font-weight: bolder
+  font-weight: bolder;
 }
 .goRight {
-justify-content: flex-end;
-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-.goRight li {
+/* .goRight li {
   margin-left: 1rem;
   
+} */
+.goSpace {
+  width: 100%;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .border-bottom {
   color: #cbd6e2;
   opacity: 0.7;
@@ -66,17 +100,18 @@ color: white;
   /* background-color: #fae62d; */
 }
 .links > ul {
-    /* width: 30em; */
-    color:#ffffff;
-    /* font-size: larger; */
-    font-weight: bolder;
-    list-style-type: none;
-    /* display: flex;
+  margin-top: 1rem;
+  /* width: 30em; */
+  color: #ffffff;
+  /* font-size: larger; */
+  font-weight: bolder;
+  list-style-type: none;
+  /* display: flex;
     flex-direction: column; */
-    /* justify-content: space-between; */
-    align-items: center;
-    /* margin-left: auto; */
-/* flex-wrap: wrap; */
+  /* justify-content: space-between; */
+  align-items: center;
+  /* margin-left: auto; */
+  /* flex-wrap: wrap; */
 }
 .links > ul > li {
   font-family: "Montserrat", sans-serif;
@@ -94,10 +129,11 @@ color: white;
 
 .icons {
   display: flex;
+  flex-wrap: wrap;
   font-size: 1.5rem;
   width: 100%;
   color: #cbd6e2;
-justify-content: space-between;
+  justify-content: space-between;
 }
 /* .icons i {
   margin-left: 1.3rem;
@@ -117,10 +153,11 @@ justify-content: space-between;
 .languages > ul {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   /* font-size: larger; */
   font-weight: bolder;
   list-style-type: none;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   /* margin-left: auto; */
 }
@@ -163,100 +200,91 @@ justify-content: space-between;
   text-decoration: none;
 }
 
-.btn-info {
-  background-color: 
-  transparent;
-  /* border: #cbd6e2 */
-  font-size: x-small;
+#helpButton {
+  background-color: #f5f8fa;
+  display: flex;
+  width: 12rem;
+  height: 2rem;
+  /* border: thin solid #ff8f59; */
+  border-radius: 0.252rem;
+  justify-content: center;
+  align-items: center;
+  color: #33475b;
+  opacity: 0.9;
+  font-size: smaller;
 }
-
+#helpButton:hover {
+  /* text-decoration: none; */
+  opacity: 0.7;
+}
 /* Css Khuong End */
 
 /* Phuong CSS Start */
 
-.navbar-brand1{
-    display: flex;
-    padding-left: 150px;
-    margin-top: 6rem;
+.navbar-brand1 {
+  display: flex;
+  padding-left: 150px;
+  margin-top: 6rem;
 }
-.section2{
-    display: flex;
-    width: 100%;
-    height: 600px;
-    background-color: #ff8f59;
-}
-
-.section2{
-    padding: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-.card111{
-    padding-left: 30px;
-    padding-bottom: 10px;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-.button{
-    display: flex;
-    justify-content: space-around;
-
-}
-.btn1{
-    width: 300px;
-    height: 70px;
-    text-decoration-line: none;
-    border: 1px solid white;
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    color: black
-}
-.btn1:hover{
-    opacity: 0.9;
-}
-.btn{
-    background-color: #ff8f59;
-    display: flex;
-    width: 150px;
-    border: 1px solid white;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
-.btn:hover{
-    background-color: white;
-}
-.lin1{
-    font-size: 32px;
-}
-.collapse{
-    display: flex;
-    justify-content: flex-end;
+.section2 {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-color: #ff8f59;
 }
 
-
-
-
-
+.section2 {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.card111 {
+  padding-left: 30px;
+  padding-bottom: 10px;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+.btn1 {
+  width: 300px;
+  height: 70px;
+  text-decoration-line: none;
+  border: 1px solid white;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  color: black;
+}
+.btn1:hover {
+  opacity: 0.9;
+}
+.btn {
+  background-color: #ff8f59;
+  display: flex;
+  width: 150px;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+}
+.lin1 {
+  font-size: 32px;
+}
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
 
 /* Phuong CSS End */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Thien CSS Start */
 
