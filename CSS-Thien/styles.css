@@ -515,6 +515,7 @@ justify-content: space-between;
   flex-direction: column;
   justify-content: center;
   background-color: #ffffff;
+  border: none;
 }
 
 .S3C2col1 {
