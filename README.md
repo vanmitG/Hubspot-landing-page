@@ -1,13 +1,11 @@
 # Hubspot Landing Page
 
+## Section 2
 
-## Section 2 
-
-In this section,I provided it in 2 parts - navbar and flexbox. 
+In this section,I provided it in 2 parts - navbar and flexbox.
 I am buiding the navbar by using boostraps. In addition, I also add dropdown menu, but I cannot make the mega menu in my dropdown. I have some ideas for the mega menu. It is like flexbox. I am going to one big container under my dropdown. Inside the big container, it will has 3 braches (3 smaller boxes). my question is how can I make a display for it?
 
-
-In the second part, I am using flexbox. This kinda like our spotify landing home page. 
+In the second part, I am using flexbox. This kinda like our spotify landing home page.
 
 ## Section Commitments:
 
@@ -21,7 +19,9 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 
 &nbsp;&nbsp;&nbsp; Learn&Grow - Text - Image
 
----
+&nbsp;&nbsp;&nbsp;&nbsp; The sticky navbar and footer was built using bootstrap providing repsonsiveness to the two elements
+
+![](./img/StickyNavFooter.png)
 
 ### &nbsp; Section 2: NavBar2 + Jumbotron
 
@@ -45,9 +45,9 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 ! First, I analyze the content in my section.
 ! Thhen I search style I need in Bootstrap.
 !
-!  My Section has 3 containers: S3-Container1 2 and 3.
+! My Section has 3 containers: S3-Container1 2 and 3.
 ! i use Style Cards in Bootstrap in all Containers and Picture, we can find by CSS-Peeper.
-! 
+!
 
 ---
 
