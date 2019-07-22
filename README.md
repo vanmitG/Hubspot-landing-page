@@ -1,13 +1,5 @@
 # Hubspot Landing Page
-!
-! Hi Guys, I, Hang Tran.
-###This is section 3 of Hubspot landing page.
-! First, I analyze the content in my section.
-! Thhen I search style I need in Bootstrap.
-!
-!  My Section has 3 containers: S3-Container1 2 and 3.
-! i use Style Cards in Bootstrap in all Containers and Picture, we can find by CSS-Peeper.
-! 
+
 
 ## Section 2 
 
@@ -47,6 +39,16 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 
 &nbsp; &nbsp; &nbsp; 3 Small Cards - Button: hover change color/opacity - Card: hover change size - 3 columns
 
+!
+! Hi Guys, I, Hang Tran.
+###This is section 3 of Hubspot landing page.
+! First, I analyze the content in my section.
+! Thhen I search style I need in Bootstrap.
+!
+!  My Section has 3 containers: S3-Container1 2 and 3.
+! i use Style Cards in Bootstrap in all Containers and Picture, we can find by CSS-Peeper.
+! 
+
 ---
 
 ### &nbsp; Section 4: Customer & Call to action
@@ -55,3 +57,6 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 
 &nbsp; &nbsp; &nbsp; Call to action - Button: hover change color/opacity
 2 columns
+
+https://affectionate-darwin-b1212e.netlify.com/
+![](screenshot-Hubspot-landing-page.png)
