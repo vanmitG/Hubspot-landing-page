@@ -1,13 +1,6 @@
 # Hubspot Landing Page
+https://affectionate-darwin-b1212e.netlify.com/
 
-
-## Section 2 
-
-In this section,I provided it in 2 parts - navbar and flexbox. 
-I am buiding the navbar by using boostraps. In addition, I also add dropdown menu, but I cannot make the mega menu in my dropdown. I have some ideas for the mega menu. It is like flexbox. I am going to one big container under my dropdown. Inside the big container, it will has 3 braches (3 smaller boxes). my question is how can I make a display for it?
-
-
-In the second part, I am using flexbox. This kinda like our spotify landing home page. 
 
 ## Section Commitments:
 
@@ -29,6 +22,14 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 
 &nbsp; &nbsp; &nbsp; Jumbotron - Text image - Button: hover change of color/opacity
 
+## Section 2 
+
+In this section,I provided it in 2 parts - navbar and flexbox. 
+I am buiding the navbar by using boostraps. In addition, I also add dropdown button with mega menu.
+
+In the second part, I am using flexbox. This kinda like our spotify landing home page. 
+
+![](./img-Thien/Section2.jpg)
 ---
 
 ### &nbsp; Section 3: App Features
@@ -49,6 +50,7 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 ! i use Style Cards in Bootstrap in all Containers and Picture, we can find by CSS-Peeper.
 ! 
 
+![](screenshot-Hubspot-landing-page.png)
 ---
 
 ### &nbsp; Section 4: Learn & Grow, Customers & Call to action
@@ -72,10 +74,13 @@ Part Call to action:
 - 1 row divided into 2 unequal width columns. 
 - One column with texts & a button with hover color change. One column with an image.
 
-
-https://affectionate-darwin-b1212e.netlify.com/
-![](screenshot-Hubspot-landing-page.png)
-
 ![](./img-Thien/learngrowsection.jpg)
 
 ![](./img-Thien/CCCTA.jpg)
+
+https://affectionate-darwin-b1212e.netlify.com/
+
+
+
+
+
