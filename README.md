@@ -77,9 +77,9 @@ Part Call to action:
 - 1 row divided into 2 unequal width columns. 
 - One column with texts & a button with hover color change. One column with an image.
 
-![](./img-Thien/learngrowsection.jpg)
+![](./img-Thien/learngrowsection.png)
 
-![](./img-Thien/CCCTA.jpg)
+![](./img-Thien/CCCTA.png)
 
 https://affectionate-darwin-b1212e.netlify.com/
 
