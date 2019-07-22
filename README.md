@@ -51,12 +51,31 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 
 ---
 
-### &nbsp; Section 4: Customer & Call to action
+### &nbsp; Section 4: Learn & Grow, Customers & Call to action
 
 &nbsp; &nbsp; &nbsp; Customer - Text - Image - 2 columns
 
 &nbsp; &nbsp; &nbsp; Call to action - Button: hover change color/opacity
 2 columns
 
+Hi all, my name is Thien and I created 3 parts of the Hubspot Landing Page.
+
+Part Learn & Grow: 
+- 1 big Jumbotron with gradient background
+- grid style images and texts
+
+Part Customer:
+- 1 row divided into 2 unequal width columns. 
+- One column with texts, One column with a grid style of 8 customers' logos.
+
+Part Call to action:
+- 1 row divided into 2 unequal width columns. 
+- One column with texts & a button with hover color change. One column with an image.
+
+
 https://affectionate-darwin-b1212e.netlify.com/
 ![](screenshot-Hubspot-landing-page.png)
+
+![](./img-Thien/learngrowsection.jpg)
+
+![](./img-Thien/CCCTA.jpg)
