@@ -32,7 +32,7 @@ I am buiding the navbar by using boostraps. In addition, I also add dropdown but
 
 In the second part, I am using flexbox. This kinda like our spotify landing home page. 
 
-![](./img-Thien/Section2.jpg)
+![](./img-Thien/Section2.png)
 ---
 
 ### &nbsp; Section 3: App Features
