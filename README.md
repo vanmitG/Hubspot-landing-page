@@ -1,7 +1,7 @@
 # Hubspot Landing Page
 https://affectionate-darwin-b1212e.netlify.com/
 
-## Section 2
+
 
 ## Section Commitments:
 
