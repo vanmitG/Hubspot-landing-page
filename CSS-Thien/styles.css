@@ -365,6 +365,12 @@ li .largeSeperate {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color:  #ff7a59;
+  opacity: 0.8;
 }
 
 .display1 {
@@ -410,7 +416,7 @@ li .largeSeperate {
 }
 
 .container2 {
-  background-color: blue;
+  /* background-color: black; */
   display: flex;
   justify-content: center;
   align-items: center;
