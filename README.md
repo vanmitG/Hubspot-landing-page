@@ -1,6 +1,7 @@
 # Hubspot Landing Page
 https://affectionate-darwin-b1212e.netlify.com/
 
+## Section 2
 
 ## Section Commitments:
 
@@ -14,7 +15,9 @@ https://affectionate-darwin-b1212e.netlify.com/
 
 &nbsp;&nbsp;&nbsp; Learn&Grow - Text - Image
 
----
+&nbsp;&nbsp;&nbsp;&nbsp; The sticky navbar and footer was built using bootstrap providing repsonsiveness to the two elements
+
+![](./img/StickyNavFooter.png)
 
 ### &nbsp; Section 2: NavBar2 + Jumbotron
 
@@ -46,9 +49,9 @@ In the second part, I am using flexbox. This kinda like our spotify landing home
 ! First, I analyze the content in my section.
 ! Thhen I search style I need in Bootstrap.
 !
-!  My Section has 3 containers: S3-Container1 2 and 3.
+! My Section has 3 containers: S3-Container1 2 and 3.
 ! i use Style Cards in Bootstrap in all Containers and Picture, we can find by CSS-Peeper.
-! 
+!
 
 ![](screenshot-Hubspot-landing-page.png)
 ---
